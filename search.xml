@@ -1,19 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于我</title>
-    <url>/2020/01/31/about/</url>
-    <content><![CDATA[<h1 id="DrunkCat"><a href="#DrunkCat" class="headerlink" title="DrunkCat"></a>DrunkCat</h1><p>以前想过搭一个属于自己的网站</p>
-<p>迟迟没踏出这一步</p>
-<p>今天！终于完成啦！</p>
-<p>继续加油！继续努力</p>
-<h5 id="TE4T"><a href="#TE4T" class="headerlink" title="TE4T"></a>TE4T</h5><h5 id="TEST-amp-TEXT"><a href="#TEST-amp-TEXT" class="headerlink" title="TEST &amp; TEXT"></a>TEST &amp; TEXT</h5><p>2020.1.31</p>
+    <title>3.常见的编程语言介绍</title>
+    <url>/2020/01/31/3.%E5%B8%B8%E8%A7%81%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<h1 id="常见的编程语言介绍"><a href="#常见的编程语言介绍" class="headerlink" title="常见的编程语言介绍"></a>常见的编程语言介绍</h1><p>倚天屠龙记的门派来介绍！</p>
+<ol>
+<li><p>少林派 -&gt; C语言        执行效率高，运行速度快；它可以直接操作内存；主要作用：计算机底层的硬件驱动，操作系统；windows就是用C语言编写的。</p>
+</li>
+<li><p>武当派 -&gt; C++         执行效率也很高，但是没有C语言效率高；C++源自于C语言</p>
+</li>
+<li><p>峨眉派 -&gt; C#            微软的产品，只能在windows平台运行；主要作用：一般用来做游戏；C#源自于C语言</p>
+</li>
+<li><p>明教 -&gt; Java            编程语言排行榜第一位，丰富的开源社区；主要作用：主要用来做后台服务</p>
+</li>
+<li><p>华山派 -&gt; python    特别适合做人工智能和机器学习</p>
+</li>
+<li><p>明教的波斯校区 -&gt; go语言 主要作用：用来做区块链</p>
+</li>
+</ol>
 ]]></content>
       <categories>
-        <category>作者</category>
+        <category>Java-第一章</category>
       </categories>
       <tags>
-        <tag>作者</tag>
+        <tag>Java导学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2.编程语言的发展</title>
+    <url>/2020/01/31/2.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E5%8F%91%E5%B1%95/</url>
+    <content><![CDATA[<h1 id="编程语言的发展"><a href="#编程语言的发展" class="headerlink" title="编程语言的发展"></a>编程语言的发展</h1><p>编程：编写程序.</p>
+<p>编程语言：和计算机的交流方式</p>
+<p>编程语言的发展历程：</p>
+<ol>
+<li><p>机器语言：使用0和1与计算机进行交流</p>
+<p>运算效率是最高的</p>
+<p>对人是不友好的</p>
+</li>
+<li><p>汇编语言：使用符号来代替上方的01代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MOV ax,1</span><br><span class="line">MOV bx,1</span><br><span class="line">ADD ax,bx(加法的结果在ax里面)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>高级语言</p>
+<p>人类更容易理解的编程语言</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 + 1</span><br></pre></td></tr></table></figure>
+
+<p>高级语言虽然很牛B，但是在执行的时候，一定会把高级语言编程汇编，然后再转化成机器语言去执行</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>Java导学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.导学</title>
+    <url>/2020/01/31/1.%E5%AF%BC%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="编程语言的发展"><a href="#编程语言的发展" class="headerlink" title="编程语言的发展"></a>编程语言的发展</h1><p>编程：编写程序</p>
+<p>编程语言：使用什么样的方式和计算机交流</p>
+<p>计算机语言的发展历程：</p>
+<ol>
+<li>机器语言：使用0和1与计算机进行交流.    1 + 1 -&gt; 1 101010111 1 对人不友好</li>
+<li>汇编语言：把01的机器码进行汇总，方便人们使用. ADD 1 1</li>
+<li>高级语言：人类更加容易理解的编程语言. 1 + 1</li>
+</ol>
+<p>编程语言的发展：按照人类更容易理解的方向发展.</p>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>Java导学</tag>
       </tags>
   </entry>
   <entry>
@@ -128,7 +187,7 @@
 <p>变量的意义：把程序运行过程中产生的值，保存起来，方便后面使用</p>
 <p>变量的声明：</p>
 <blockquote>
-<p>​        数据类型 变量名 = 值；</p>
+<p>​        数据类型 变量名 = 值；</p>
 </blockquote>
 <p>数据类型：人对数据进行分类，告诉计算机可以执行的操作</p>
 <p>java的数据类型：</p>
@@ -227,63 +286,6 @@
 <li><p>混合型：先编译后解释执行.Java</p>
 </li>
 </ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>3.常见的编程语言介绍</title>
-    <url>/2020/01/12/3.%E5%B8%B8%E8%A7%81%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E4%BB%8B%E7%BB%8D/</url>
-    <content><![CDATA[<h1 id="常见的编程语言介绍"><a href="#常见的编程语言介绍" class="headerlink" title="常见的编程语言介绍"></a>常见的编程语言介绍</h1><p>倚天屠龙记的门派来介绍！</p>
-<ol>
-<li><p>少林派 -&gt; C语言        执行效率高，运行速度快；它可以直接操作内存；主要作用：计算机底层的硬件驱动，操作系统；windows就是用C语言编写的。</p>
-</li>
-<li><p>武当派 -&gt; C++         执行效率也很高，但是没有C语言效率高；C++源自于C语言</p>
-</li>
-<li><p>峨眉派 -&gt; C#            微软的产品，只能在windows平台运行；主要作用：一般用来做游戏；C#源自于C语言</p>
-</li>
-<li><p>明教 -&gt; Java            编程语言排行榜第一位，丰富的开源社区；主要作用：主要用来做后台服务</p>
-</li>
-<li><p>华山派 -&gt; python    特别适合做人工智能和机器学习</p>
-</li>
-<li><p>明教的波斯校区 -&gt; go语言 主要作用：用来做区块链</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>2.编程语言的发展</title>
-    <url>/2020/01/12/2.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E5%8F%91%E5%B1%95/</url>
-    <content><![CDATA[<h1 id="编程语言的发展"><a href="#编程语言的发展" class="headerlink" title="编程语言的发展"></a>编程语言的发展</h1><p>编程：编写程序.</p>
-<p>编程语言：和计算机的交流方式</p>
-<p>编程语言的发展历程：</p>
-<ol>
-<li><p>机器语言：使用0和1与计算机进行交流</p>
-<p>运算效率是最高的</p>
-<p>对人是不友好的</p>
-</li>
-<li><p>汇编语言：使用符号来代替上方的01代码</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MOV ax,1</span><br><span class="line">MOV bx,1</span><br><span class="line">ADD ax,bx(加法的结果在ax里面)</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>高级语言</p>
-<p>人类更容易理解的编程语言</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 + 1</span><br></pre></td></tr></table></figure>
-
-<p>高级语言虽然很牛B，但是在执行的时候，一定会把高级语言编程汇编，然后再转化成机器语言去执行</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>1.导学</title>
-    <url>/2020/01/10/1.%E5%AF%BC%E5%AD%A6/</url>
-    <content><![CDATA[<h1 id="编程语言的发展"><a href="#编程语言的发展" class="headerlink" title="编程语言的发展"></a>编程语言的发展</h1><p>编程：编写程序</p>
-<p>编程语言：使用什么样的方式和计算机交流</p>
-<p>计算机语言的发展历程：</p>
-<ol>
-<li>机器语言：使用0和1与计算机进行交流.    1 + 1 -&gt; 1 101010111 1 对人不友好</li>
-<li>汇编语言：把01的机器码进行汇总，方便人们使用. ADD 1 1</li>
-<li>高级语言：人类更加容易理解的编程语言. 1 + 1</li>
-</ol>
-<p>编程语言的发展：按照人类更容易理解的方向发展.</p>
 ]]></content>
   </entry>
 </search>
