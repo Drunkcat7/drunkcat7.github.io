@@ -1,6 +1,291 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>15.while循环</title>
+    <url>/2020/01/31/15.while%E5%BE%AA%E7%8E%AF/</url>
+    <content><![CDATA[<h1 id="while循环"><a href="#while循环" class="headerlink" title="while循环"></a>while循环</h1><p>在java中一共提供了三种循环</p>
+<p>1.while循环</p>
+<p>2.for循环</p>
+<p>3.do···while循环</p>
+<p>while循环</p>
+<blockquote>
+<p>while(条件){</p>
+<p>​        xxxxx(循环体)</p>
+<p>}</p>
+</blockquote>
+<p>执行逻辑：</p>
+<p>​        判断条件是否为真，如果条件真，执行循环体，再次判断条件是否为真，如果条件为真，继续执行循环体</p>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>while</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>14.if语句</title>
+    <url>/2020/01/31/14.if%E8%AF%AD%E5%8F%A5/</url>
+    <content><![CDATA[<h1 id="if语句"><a href="#if语句" class="headerlink" title="if语句"></a>if语句</h1><p>用来做条件判断的</p>
+<p>if语句的语法</p>
+<blockquote>
+<p>if(条件){</p>
+<p>​        xxxxx</p>
+<p>}</p>
+</blockquote>
+<p>逻辑：</p>
+<p>​        判断条件是否为真（true），就去xxxxx</p>
+<blockquote>
+<p>if(条件){</p>
+<p>​        xxxxx</p>
+<p>}else{</p>
+<p>​        yyyyy</p>
+<p>}</p>
+</blockquote>
+<p>逻辑：</p>
+<p>​        如果条件为真，xxxxx；否则，yyyyy</p>
+<blockquote>
+<p>if(条件1){</p>
+<p>​        xxxxx</p>
+<p>}else if(条件2){</p>
+<p>​        yyyyy</p>
+<p>}else if(条件3){</p>
+<p>​        yyyyy</p>
+<p>}else{</p>
+<p>​        nnnnn</p>
+<p>}</p>
+</blockquote>
+<p>逻辑：</p>
+<p>​        判断条件1是否成立，如果成立，执行xxxxx；</p>
+<p>​        否则如果条件2是否成立，如果成立，执行yyyyy；</p>
+<p>​        否则如果条件3是否成立，如果成立，执行zzzzz；</p>
+<p>​        如果都不成立，最终执行nnnnn；</p>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>if</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>13.用户输入</title>
+    <url>/2020/01/31/13.%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5/</url>
+    <content><![CDATA[<h1 id="用户输入"><a href="#用户输入" class="headerlink" title="用户输入"></a>用户输入</h1><p>Scanner：扫描器</p>
+<p>先创建扫描器</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Scanner sc = <span class="keyword">new</span> Scanner（String.in）;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>获取数据</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">sc.nextInt();</span><br><span class="line">sc.nextDouble();</span><br><span class="line">sc.nextLine();<span class="comment">//获取字符串</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>Scanner扫描器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>12.String</title>
+    <url>/2020/01/31/12.String/</url>
+    <content><![CDATA[<h1 id="String"><a href="#String" class="headerlink" title="String"></a>String</h1><p>字符串</p>
+<p>在java中使用“”来描述字符串</p>
+<p>字符串可以执行 + 操作；表示字符串的拼接</p>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>String</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>11.boolean</title>
+    <url>/2020/01/31/11.boolean/</url>
+    <content><![CDATA[<h1 id="boolean"><a href="#boolean" class="headerlink" title="boolean"></a>boolean</h1><p>int 整数</p>
+<p>double 小数</p>
+<p>boolean 布尔值    保存的是一个状态；成立（true）不成立（false）</p>
+<p>取值范围：</p>
+<p>​        true 成立  -&gt; 真</p>
+<p>​        false 不成立  -&gt; 假</p>
+<p>布尔值主要是用来做条件判断的</p>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>boolean</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>10.double</title>
+    <url>/2020/01/31/10.double/</url>
+    <content><![CDATA[<h1 id="double"><a href="#double" class="headerlink" title="double"></a>double</h1><p>int：整数</p>
+<p>double：小数</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">+ - * / %</span><br></pre></td></tr></table></figure>
+
+
+
+<p>double类型的操作和int基本一样，不同的是double计算的结果一般都是double类型</p>
+<p>= 赋值操作，把等号右边的结果赋值给等号左边的变量</p>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>double</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>9.变量和int</title>
+    <url>/2020/01/31/9.%E5%8F%98%E9%87%8F%E5%92%8Cint/</url>
+    <content><![CDATA[<h1 id="变量和int"><a href="#变量和int" class="headerlink" title="变量和int"></a>变量和int</h1><p>岳哥：13012121212</p>
+<p>岳哥：18613131313</p>
+<p>变量：就是可以发生改变的量</p>
+<p>变量的意义：把程序运行过程中产生的值，保存起来，方便后面使用</p>
+<p>变量的声明：</p>
+<blockquote>
+<p>​        数据类型 变量名 = 值；</p>
+</blockquote>
+<p>数据类型：人对数据进行分类，告诉计算机可以执行的操作</p>
+<p>java的数据类型：</p>
+<pre><code>1. int 整数
+  2. double 小数
+  3. boolean 布尔值
+  4. String 字符串</code></pre><p>int：整数：数学的算术运算</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">+ - * / %</span><br></pre></td></tr></table></figure>
+
+
+
+<p>%：计算余数</p>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>int</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>8.注释</title>
+    <url>/2020/01/31/8.%E6%B3%A8%E9%87%8A/</url>
+    <content><![CDATA[<h1 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h1><p>注释：就是对咱们写的代码进行解释和说明</p>
+<p>注释不会影响咱们程序的正常执行</p>
+<p>java的注释：</p>
+<ol>
+<li>单行注释<br>//你要注释的内容</li>
+<li>多行注释<br>/*注释的内容*/</li>
+<li>文档注释<br>/**注释的 内容**/</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>注释</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>7.第一个java程序</title>
+    <url>/2020/01/31/7.%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</url>
+    <content><![CDATA[<h1 id="第一个java程序"><a href="#第一个java程序" class="headerlink" title="第一个java程序"></a>第一个java程序</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Hello</span></span>&#123;</span><br><span class="line">  	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">    		System.out.println(<span class="string">"Hello World"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<blockquote>
+<p>注意：</p>
+<ol>
+<li>java程序严格区分大小写</li>
+<li>所有的标点符号必须是英文状态的标点符号</li>
+<li>Javac 文件名.java</li>
+<li>Java 类名</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>第一个程序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>6.java相关概念</title>
+    <url>/2020/01/31/6.java%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<h1 id="java相关概念"><a href="#java相关概念" class="headerlink" title="java相关概念"></a>java相关概念</h1><p>编译型：执行效率高，跨平台不够好</p>
+<p>解释型：执行效率不高，跨平台性比较好</p>
+<p>java是先编译后解释执行</p>
+<p>java程序能够跨平台完全是依赖于java虚拟机( JVM )</p>
+<p>程序想运行，光有JVM不够。还需要一些其他的java的内容来帮助我</p>
+<p>JRE（Java Runtime Environment）java的运行时环境，jvm + java的类库</p>
+<p>JDK（java Development kit）java的开发包。JRE + java需要的工具 </p>
+<img src="/Users/drunkcat/Library/Application Support/typora-user-images/image-20200115171055117.png" alt="image-20200115171055117" style="zoom:30%;" />
+
+<img src="/Users/drunkcat/Library/Application Support/typora-user-images/image-20200115171201752.png" alt="image-20200115171201752" style="zoom:25%;" />]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>Java导学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>5.java简介</title>
+    <url>/2020/01/31/5.Java%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<h1 id="java简介"><a href="#java简介" class="headerlink" title="java简介"></a>java简介</h1><p>sun公司</p>
+<p>James Gosling</p>
+<p>Java的发展史：</p>
+<p>1991年，Oak诞生</p>
+<p>1995年，更名为Java</p>
+<p>1996年，发布1.0版本    正式和用户见面</p>
+<p>1998年，发布1.2版本    J2EE正式问世</p>
+<p>1999年，发布三个1.2版本     J2SE  J2EE  J2ME</p>
+<p>2004年，发布1.5    并更改版本号为5.0</p>
+<p>2005年，发布取消J2ME中的2，改为JavaSE JavaEE JavaME</p>
+<p>2006年，java公布第一批源代码    java开源</p>
+<p>2009年，sun被oracle收购</p>
+<p>2011年，oracle发布Java7</p>
+<p>···</p>
+<p>今Java13</p>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>Java导学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>4.编程语言的分类</title>
+    <url>/2020/01/31/4.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E5%88%86%E7%B1%BB/</url>
+    <content><![CDATA[<h1 id="编程语言的分类"><a href="#编程语言的分类" class="headerlink" title="编程语言的分类"></a>编程语言的分类</h1><p>地球文字 -&gt; 翻译 -&gt; 火星文字</p>
+<ol>
+<li>全文翻译：一次性把所有的文字进行翻译，翻译完的结果火星人是直接就认识的，速度会很快。土星人来了原来翻译的内容就不好使了</li>
+<li>边说边练：一句一句的翻译，一句一句的练习，练习的速度很慢。优势：当土星人来了。只需要准备一个会土星文字的人即可</li>
+</ol>
+<p>编程：</p>
+<p>人类语言 -&gt; 翻译 -&gt; 机器语言</p>
+<ol>
+<li><p>编译型：全文翻译，一次性把所有的代码进行编译，一次编译，到处运行。优点：执行效率高；缺点：跨平台性不够好。C语言，C++，go语言</p>
+</li>
+<li><p>解释型：边说边练，一句一句的解释执行我们的代码。优点：跨平台性比较好；缺点：执行效率比较低</p>
+<p>python</p>
+</li>
+<li><p>混合型：先编译后解释执行.Java</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java-第一章</category>
+      </categories>
+      <tags>
+        <tag>Java导学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3.常见的编程语言介绍</title>
     <url>/2020/01/31/3.%E5%B8%B8%E8%A7%81%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E4%BB%8B%E7%BB%8D/</url>
     <content><![CDATA[<h1 id="常见的编程语言介绍"><a href="#常见的编程语言介绍" class="headerlink" title="常见的编程语言介绍"></a>常见的编程语言介绍</h1><p>倚天屠龙记的门派来介绍！</p>
@@ -74,218 +359,5 @@
       <tags>
         <tag>Java导学</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>15.while循环</title>
-    <url>/2020/01/16/15.while%E5%BE%AA%E7%8E%AF/</url>
-    <content><![CDATA[<h1 id="while循环"><a href="#while循环" class="headerlink" title="while循环"></a>while循环</h1><p>在java中一共提供了三种循环</p>
-<p>1.while循环</p>
-<p>2.for循环</p>
-<p>3.do···while循环</p>
-<p>while循环</p>
-<blockquote>
-<p>while(条件){</p>
-<p>​        xxxxx(循环体)</p>
-<p>}</p>
-</blockquote>
-<p>执行逻辑：</p>
-<p>​        判断条件是否为真，如果条件真，执行循环体，再次判断条件是否为真，如果条件为真，继续执行循环体</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>14.if语句</title>
-    <url>/2020/01/16/14.if%E8%AF%AD%E5%8F%A5/</url>
-    <content><![CDATA[<h1 id="if语句"><a href="#if语句" class="headerlink" title="if语句"></a>if语句</h1><p>用来做条件判断的</p>
-<p>if语句的语法</p>
-<blockquote>
-<p>if(条件){</p>
-<p>​        xxxxx</p>
-<p>}</p>
-</blockquote>
-<p>逻辑：</p>
-<p>​        判断条件是否为真（true），就去xxxxx</p>
-<blockquote>
-<p>if(条件){</p>
-<p>​        xxxxx</p>
-<p>}else{</p>
-<p>​        yyyyy</p>
-<p>}</p>
-</blockquote>
-<p>逻辑：</p>
-<p>​        如果条件为真，xxxxx；否则，yyyyy</p>
-<blockquote>
-<p>if(条件1){</p>
-<p>​        xxxxx</p>
-<p>}else if(条件2){</p>
-<p>​        yyyyy</p>
-<p>}else if(条件3){</p>
-<p>​        yyyyy</p>
-<p>}else{</p>
-<p>​        nnnnn</p>
-<p>}</p>
-</blockquote>
-<p>逻辑：</p>
-<p>​        判断条件1是否成立，如果成立，执行xxxxx；</p>
-<p>​        否则如果条件2是否成立，如果成立，执行yyyyy；</p>
-<p>​        否则如果条件3是否成立，如果成立，执行zzzzz；</p>
-<p>​        如果都不成立，最终执行nnnnn；</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>13.用户输入</title>
-    <url>/2020/01/16/13.%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5/</url>
-    <content><![CDATA[<h1 id="用户输入"><a href="#用户输入" class="headerlink" title="用户输入"></a>用户输入</h1><p>Scanner：扫描器</p>
-<p>先创建扫描器</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Scanner sc = <span class="keyword">new</span> Scanner（String.in）;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>获取数据</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">sc.nextInt();</span><br><span class="line">sc.nextDouble();</span><br><span class="line">sc.nextLine();<span class="comment">//获取字符串</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-  </entry>
-  <entry>
-    <title>12.String</title>
-    <url>/2020/01/16/12.String/</url>
-    <content><![CDATA[<h1 id="String"><a href="#String" class="headerlink" title="String"></a>String</h1><p>字符串</p>
-<p>在java中使用“”来描述字符串</p>
-<p>字符串可以执行 + 操作；表示字符串的拼接</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>11.boolean</title>
-    <url>/2020/01/15/11.boolean/</url>
-    <content><![CDATA[<h1 id="boolean"><a href="#boolean" class="headerlink" title="boolean"></a>boolean</h1><p>int 整数</p>
-<p>double 小数</p>
-<p>boolean 布尔值    保存的是一个状态；成立（true）不成立（false）</p>
-<p>取值范围：</p>
-<p>​        true 成立  -&gt; 真</p>
-<p>​        false 不成立  -&gt; 假</p>
-<p>布尔值主要是用来做条件判断的</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>10.double</title>
-    <url>/2020/01/15/10.double/</url>
-    <content><![CDATA[<h1 id="double"><a href="#double" class="headerlink" title="double"></a>double</h1><p>int：整数</p>
-<p>double：小数</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">+ - * / %</span><br></pre></td></tr></table></figure>
-
-
-
-<p>double类型的操作和int基本一样，不同的是double计算的结果一般都是double类型</p>
-<p>= 赋值操作，把等号右边的结果赋值给等号左边的变量</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>9.变量和int</title>
-    <url>/2020/01/15/9.%E5%8F%98%E9%87%8F%E5%92%8Cint/</url>
-    <content><![CDATA[<h1 id="变量和int"><a href="#变量和int" class="headerlink" title="变量和int"></a>变量和int</h1><p>岳哥：13012121212</p>
-<p>岳哥：18613131313</p>
-<p>变量：就是可以发生改变的量</p>
-<p>变量的意义：把程序运行过程中产生的值，保存起来，方便后面使用</p>
-<p>变量的声明：</p>
-<blockquote>
-<p>​        数据类型 变量名 = 值；</p>
-</blockquote>
-<p>数据类型：人对数据进行分类，告诉计算机可以执行的操作</p>
-<p>java的数据类型：</p>
-<pre><code>1. int 整数
-  2. double 小数
-  3. boolean 布尔值
-  4. String 字符串</code></pre><p>int：整数：数学的算术运算</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">+ - * / %</span><br></pre></td></tr></table></figure>
-
-
-
-<p>%：计算余数</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>8.注释</title>
-    <url>/2020/01/15/8.%E6%B3%A8%E9%87%8A/</url>
-    <content><![CDATA[<h1 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h1><p>注释：就是对咱们写的代码进行解释和说明</p>
-<p>注释不会影响咱们程序的正常执行</p>
-<p>java的注释：</p>
-<ol>
-<li>单行注释<br>//你要注释的内容</li>
-<li>多行注释<br>/*注释的内容*/</li>
-<li>文档注释<br>/**注释的 内容**/</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>7.第一个java程序</title>
-    <url>/2020/01/15/7.%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</url>
-    <content><![CDATA[<h1 id="第一个java程序"><a href="#第一个java程序" class="headerlink" title="第一个java程序"></a>第一个java程序</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Hello</span></span>&#123;</span><br><span class="line">  	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">    		System.out.println(<span class="string">"Hello World"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<blockquote>
-<p>注意：</p>
-<ol>
-<li>java程序严格区分大小写</li>
-<li>所有的标点符号必须是英文状态的标点符号</li>
-<li>Javac 文件名.java</li>
-<li>Java 类名</li>
-</ol>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>6.java相关概念</title>
-    <url>/2020/01/15/6.java%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<h1 id="java相关概念"><a href="#java相关概念" class="headerlink" title="java相关概念"></a>java相关概念</h1><p>编译型：执行效率高，跨平台不够好</p>
-<p>解释型：执行效率不高，跨平台性比较好</p>
-<p>java是先编译后解释执行</p>
-<p>java程序能够跨平台完全是依赖于java虚拟机( JVM )</p>
-<p>程序想运行，光有JVM不够。还需要一些其他的java的内容来帮助我</p>
-<p>JRE（Java Runtime Environment）java的运行时环境，jvm + java的类库</p>
-<p>JDK（java Development kit）java的开发包。JRE + java需要的工具 </p>
-<img src="/Users/drunkcat/Library/Application Support/typora-user-images/image-20200115171055117.png" alt="image-20200115171055117" style="zoom:30%;" />
-
-<img src="/Users/drunkcat/Library/Application Support/typora-user-images/image-20200115171201752.png" alt="image-20200115171201752" style="zoom:25%;" />]]></content>
-  </entry>
-  <entry>
-    <title>5.Java简介</title>
-    <url>/2020/01/12/5.Java%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<h1 id="java简介"><a href="#java简介" class="headerlink" title="java简介"></a>java简介</h1><p>sun公司</p>
-<p>James Gosling</p>
-<p>Java的发展史：</p>
-<p>1991年，Oak诞生</p>
-<p>1995年，更名为Java</p>
-<p>1996年，发布1.0版本    正式和用户见面</p>
-<p>1998年，发布1.2版本    J2EE正式问世</p>
-<p>1999年，发布三个1.2版本     J2SE  J2EE  J2ME</p>
-<p>2004年，发布1.5    并更改版本号为5.0</p>
-<p>2005年，发布取消J2ME中的2，改为JavaSE JavaEE JavaME</p>
-<p>2006年，java公布第一批源代码    java开源</p>
-<p>2009年，sun被oracle收购</p>
-<p>2011年，oracle发布Java7</p>
-<p>···</p>
-<p>今Java13</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>4.编程语言的分类</title>
-    <url>/2020/01/12/4.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E5%88%86%E7%B1%BB/</url>
-    <content><![CDATA[<h1 id="编程语言的分类"><a href="#编程语言的分类" class="headerlink" title="编程语言的分类"></a>编程语言的分类</h1><p>地球文字 -&gt; 翻译 -&gt; 火星文字</p>
-<ol>
-<li>全文翻译：一次性把所有的文字进行翻译，翻译完的结果火星人是直接就认识的，速度会很快。土星人来了原来翻译的内容就不好使了</li>
-<li>边说边练：一句一句的翻译，一句一句的练习，练习的速度很慢。优势：当土星人来了。只需要准备一个会土星文字的人即可</li>
-</ol>
-<p>编程：</p>
-<p>人类语言 -&gt; 翻译 -&gt; 机器语言</p>
-<ol>
-<li><p>编译型：全文翻译，一次性把所有的代码进行编译，一次编译，到处运行。优点：执行效率高；缺点：跨平台性不够好。C语言，C++，go语言</p>
-</li>
-<li><p>解释型：边说边练，一句一句的解释执行我们的代码。优点：跨平台性比较好；缺点：执行效率比较低</p>
-<p>python</p>
-</li>
-<li><p>混合型：先编译后解释执行.Java</p>
-</li>
-</ol>
-]]></content>
   </entry>
 </search>
