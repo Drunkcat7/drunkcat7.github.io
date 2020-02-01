@@ -19,8 +19,7 @@
 <p>​        动作：成员方法，不写static就是成员方法</p>
 <p>​        创建对象：</p>
 <p>​        类 引用 = new 类();</p>
-<img src="/Users/drunkcat/Library/Application Support/typora-user-images/image-20200118141511421.png" alt="image-20200118141511421" style="zoom:50%;" />
-
+<p><img src="/images/mxdx.png" alt=""></p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Car</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 成员变量</span></span><br><span class="line">    String color;   <span class="comment">// 颜色</span></span><br><span class="line">    <span class="keyword">int</span> speed;      <span class="comment">// 速度</span></span><br><span class="line">    <span class="keyword">int</span> seat = <span class="number">5</span>;       <span class="comment">// 座位</span></span><br><span class="line">    <span class="comment">// 成员方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"车能跑"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">fly</span><span class="params">()</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"车能飞"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line"><span class="comment">//        int a = 10;//写在方法里的变量，局部变量</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// 创建对象</span></span><br><span class="line">        <span class="comment">// int a = 10;</span></span><br><span class="line">        <span class="comment">//String color = "呵呵";</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// 在面向对象的世界里，变量是没有市场的，这种变量被称为引用</span></span><br><span class="line">        <span class="comment">// java分为两种数据类型：1.基本数据类型    2.应用数据类型  String和我们创建的所有的类</span></span><br><span class="line">        Car c = <span class="keyword">new</span> Car();<span class="comment">// 创建对象  创建了一辆车，后面想用这辆车，就需要使用c来访问</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// 让车去跑</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">//对象或引用.方法();</span></span><br><span class="line">        c.run();<span class="comment">// . 表示调用 ."的"</span></span><br><span class="line"></span><br><span class="line">        c.color = <span class="string">"紫色"</span>;</span><br><span class="line">        c.speed = <span class="number">120</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//        c.pailiang = 1.5;    //类中没有定义的内容不可以使用</span></span><br><span class="line"></span><br><span class="line">        System.out.println(c.color);</span><br><span class="line"></span><br><span class="line">        Car c2  = <span class="keyword">new</span> Car();</span><br><span class="line">        c2.color = <span class="string">"灰色"</span>;</span><br><span class="line">        c2.speed =  <span class="number">180</span>;</span><br><span class="line"></span><br><span class="line">        System.out.println(c.seat);</span><br><span class="line">        System.out.println(c2.seat);</span><br><span class="line"></span><br><span class="line">        System.out.println(c.color);</span><br><span class="line">        System.out.println(c2.color);</span><br><span class="line"></span><br><span class="line">        c.fly();</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 ]]></content>
@@ -116,6 +115,7 @@
         <category>Java-第三章</category>
       </categories>
       <tags>
+        <tag>Java练习题</tag>
         <tag>Java方法</tag>
       </tags>
   </entry>
@@ -311,8 +311,7 @@
 <p>​        循环体</p>
 <p>}</p>
 </blockquote>
-<img src="/Users/drunkcat/Library/Application Support/typora-user-images/image-20200116172028930.png" alt="image-20200116172028930" style="zoom:50%;" />
-
+<p><img src="/images/for.png" alt=""></p>
 <ul>
 <li>执行流程：语句1-&gt;语句2-&gt;循环体-&gt;语句3-&gt;语句2-&gt;循环体-&gt;语句3·····</li>
 <li>语句1：初始化循环变量； int i = ？</li>
@@ -658,16 +657,14 @@
 </li>
 <li><p>二进制和十进制互相的转换<br>二进制 -&gt; 十进制：</p>
 <p>​        从右向左写出1，2，4，8，16，32····把对应1位置的数字加起来就是十进制<br>十进制 -&gt; 二进制：</p>
-<p>​        把数字进行整除2，留下余数，用商继续整除2····直到商为0的时候停止然后把余数进行倒排序 就得到了二进制的数</p>
-<img src="/Users/drunkcat/Library/Application Support/typora-user-images/image-20200116141610874.png" alt="image-20200116141610874" style="zoom:50%;" />
-
+<p>​        把数字进行整除2，留下余数，用商继续整除2····直到商为0的时候停止然后把余数进行倒排序 就得到了二进制的数<br><img src="/images/image.png" alt=""></p>
+</li>
+</ol>
 <p>计算机是使用二进制来保存数字的.</p>
 <p>十进制：0-9</p>
 <p>二进制：0-1</p>
 <p>八进制：0-7</p>
-<p>十六进制：0-9A-F</p>
-</li>
-</ol>
+<p>   十六进制：0-9A-F</p>
 ]]></content>
       <categories>
         <category>Java-第二章</category>
@@ -898,9 +895,9 @@
 <p>程序想运行，光有JVM不够。还需要一些其他的java的内容来帮助我</p>
 <p>JRE（Java Runtime Environment）java的运行时环境，jvm + java的类库</p>
 <p>JDK（java Development kit）java的开发包。JRE + java需要的工具 </p>
-<img src="/Users/drunkcat/Library/Application Support/typora-user-images/image-20200115171055117.png" alt="image-20200115171055117" style="zoom:30%;" />
-
-<img src="/Users/drunkcat/Library/Application Support/typora-user-images/image-20200115171201752.png" alt="image-20200115171201752" style="zoom:25%;" />]]></content>
+<p><img src="/images/imagejava1.png" alt=""></p>
+<p><img src="/images/imagejava2.png" alt=""></p>
+]]></content>
       <categories>
         <category>Java-第一章</category>
       </categories>
