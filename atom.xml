@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-31T14:47:27.690Z</updated>
+  <updated>2020-02-01T05:34:04.490Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>15.while循环</title>
-    <link href="http://yoursite.com/2020/01/31/15.while%E5%BE%AA%E7%8E%AF/"/>
-    <id>http://yoursite.com/2020/01/31/15.while%E5%BE%AA%E7%8E%AF/</id>
-    <published>2020-01-31T12:15:00.000Z</published>
-    <updated>2020-01-31T14:47:27.690Z</updated>
+    <title>4-3.类与对象</title>
+    <link href="http://yoursite.com/2020/02/01/4-3.%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/"/>
+    <id>http://yoursite.com/2020/02/01/4-3.%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/</id>
+    <published>2020-02-01T06:03:00.000Z</published>
+    <updated>2020-02-01T05:34:04.490Z</updated>
     
     <summary type="html">
     
@@ -29,26 +29,29 @@
       
         
         
-          &lt;h1 id=&quot;while循环&quot;&gt;&lt;a href=&quot;#while循环&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;类与对象&quot;&gt;&lt;a href=&quot;#类与对象&quot; class=&quot;headerlink&quot; title=&quot;类与对象&quot;&gt;&lt;/a&gt;类与对象&lt;/h1&gt;&lt;p&gt;造车：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; 1. 画图纸
+ 1. 定义车的属性信息：color，speed，seat
+ 2.
         
       
     
     </summary>
     
     
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
+      <category term="Java-第四章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E5%9B%9B%E7%AB%A0/"/>
     
     
-      <category term="while" scheme="http://yoursite.com/tags/while/"/>
+      <category term="Java面向对象" scheme="http://yoursite.com/tags/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
     
   </entry>
   
   <entry>
-    <title>14.if语句</title>
-    <link href="http://yoursite.com/2020/01/31/14.if%E8%AF%AD%E5%8F%A5/"/>
-    <id>http://yoursite.com/2020/01/31/14.if%E8%AF%AD%E5%8F%A5/</id>
-    <published>2020-01-31T12:14:00.000Z</published>
-    <updated>2020-01-31T14:47:07.099Z</updated>
+    <title>4-2.面向对象和面向过程</title>
+    <link href="http://yoursite.com/2020/02/01/4-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E9%9D%A2%E5%90%91%E8%BF%87%E7%A8%8B/"/>
+    <id>http://yoursite.com/2020/02/01/4-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E9%9D%A2%E5%90%91%E8%BF%87%E7%A8%8B/</id>
+    <published>2020-02-01T06:02:00.000Z</published>
+    <updated>2020-02-01T05:34:08.667Z</updated>
     
     <summary type="html">
     
@@ -56,338 +59,276 @@
       
         
         
-          &lt;h1 id=&quot;if语句&quot;&gt;&lt;a href=&quot;#if语句&quot; class=&quot;headerlink&quot; title=&quot;if语句&quot;&gt;&lt;/a&gt;if语句&lt;/h1&gt;&lt;p&gt;用来做条件判断的&lt;/p&gt;
-&lt;p&gt;if语句的语法&lt;/p&gt;
+          &lt;h1 id=&quot;面向对象和面向过程&quot;&gt;&lt;a href=&quot;#面向对象和面向过程&quot; class=&quot;headerlink&quot; title=&quot;面向对象和面向过程&quot;&gt;&lt;/a&gt;面向对象和面向过程&lt;/h1&gt;&lt;p&gt;面向过程：侧重的是过程&lt;/p&gt;
+&lt;p&gt;​       
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第四章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E5%9B%9B%E7%AB%A0/"/>
+    
+    
+      <category term="Java面向对象" scheme="http://yoursite.com/tags/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4-1.面向对象概述</title>
+    <link href="http://yoursite.com/2020/02/01/4-1.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A6%82%E8%BF%B0/"/>
+    <id>http://yoursite.com/2020/02/01/4-1.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A6%82%E8%BF%B0/</id>
+    <published>2020-02-01T06:01:00.000Z</published>
+    <updated>2020-02-01T05:34:11.338Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;面向对象概述&quot;&gt;&lt;a href=&quot;#面向对象概述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第四章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E5%9B%9B%E7%AB%A0/"/>
+    
+    
+      <category term="Java面向对象" scheme="http://yoursite.com/tags/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3-5.方法的重载</title>
+    <link href="http://yoursite.com/2020/02/01/3-5.%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E8%BD%BD/"/>
+    <id>http://yoursite.com/2020/02/01/3-5.%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E8%BD%BD/</id>
+    <published>2020-02-01T05:05:00.000Z</published>
+    <updated>2020-02-01T05:37:00.464Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;方法的重载&quot;&gt;&lt;a href=&quot;#方法的重载&quot; class=&quot;headerlink&quot; title=&quot;方法的重载&quot;&gt;&lt;/a&gt;方法的重载&lt;/h1&gt;&lt;h5 id=&quot;重载：方法的名字相同，参数的个数或者类型不同&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第三章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%89%E7%AB%A0/"/>
+    
+    
+      <category term="Java方法" scheme="http://yoursite.com/tags/Java%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3-4.方法练习</title>
+    <link href="http://yoursite.com/2020/02/01/3-4.%E6%96%B9%E6%B3%95%E7%BB%83%E4%B9%A0/"/>
+    <id>http://yoursite.com/2020/02/01/3-4.%E6%96%B9%E6%B3%95%E7%BB%83%E4%B9%A0/</id>
+    <published>2020-02-01T05:04:00.000Z</published>
+    <updated>2020-02-01T05:37:02.024Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;方法练习&quot;&gt;&lt;a href=&quot;#方法练习&quot; class=&quot;headerlink&quot; title=&quot;方法练习&quot;&gt;&lt;/a&gt;方法练习&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;写方法，给方法传递两个整数a，b；返回a和b中比较大的那个数&lt;/p&gt;
+&lt;figure
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第三章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%89%E7%AB%A0/"/>
+    
+    
+      <category term="Java方法" scheme="http://yoursite.com/tags/Java%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3-3.方法的参数</title>
+    <link href="http://yoursite.com/2020/02/01/3-3.%E6%96%B9%E6%B3%95%E7%9A%84%E5%8F%82%E6%95%B0/"/>
+    <id>http://yoursite.com/2020/02/01/3-3.%E6%96%B9%E6%B3%95%E7%9A%84%E5%8F%82%E6%95%B0/</id>
+    <published>2020-02-01T05:03:00.000Z</published>
+    <updated>2020-02-01T05:37:03.623Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;方法的参数&quot;&gt;&lt;a href=&quot;#方法的参数&quot; class=&quot;headerlink&quot; title=&quot;方法的参数&quot;&gt;&lt;/a&gt;方法的参数&lt;/h1&gt;&lt;h5 id=&quot;参数：在方法执行的时候，给方法传递的信息&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第三章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%89%E7%AB%A0/"/>
+    
+    
+      <category term="Java方法" scheme="http://yoursite.com/tags/Java%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3-2.方法的返回值</title>
+    <link href="http://yoursite.com/2020/02/01/3-2.%E6%96%B9%E6%B3%95%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC/"/>
+    <id>http://yoursite.com/2020/02/01/3-2.%E6%96%B9%E6%B3%95%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC/</id>
+    <published>2020-02-01T05:02:00.000Z</published>
+    <updated>2020-02-01T05:37:04.653Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;方法的返回值&quot;&gt;&lt;a href=&quot;#方法的返回值&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第三章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%89%E7%AB%A0/"/>
+    
+    
+      <category term="Java方法" scheme="http://yoursite.com/tags/Java%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3-1.方法的定义</title>
+    <link href="http://yoursite.com/2020/02/01/3-1.%E6%96%B9%E6%B3%95%E7%9A%84%E5%AE%9A%E4%B9%89/"/>
+    <id>http://yoursite.com/2020/02/01/3-1.%E6%96%B9%E6%B3%95%E7%9A%84%E5%AE%9A%E4%B9%89/</id>
+    <published>2020-02-01T05:01:00.000Z</published>
+    <updated>2020-02-01T05:37:05.974Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;方法的定义&quot;&gt;&lt;a href=&quot;#方法的定义&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第三章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%89%E7%AB%A0/"/>
+    
+    
+      <category term="Java方法" scheme="http://yoursite.com/tags/Java%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-21.练习题</title>
+    <link href="http://yoursite.com/2020/02/01/2-21.%E9%B8%A1%E5%85%94%E5%90%8C%E7%AC%BC%E3%80%81%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0%E7%BB%83%E4%B9%A0%E9%A2%98/"/>
+    <id>http://yoursite.com/2020/02/01/2-21.%E9%B8%A1%E5%85%94%E5%90%8C%E7%AC%BC%E3%80%81%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0%E7%BB%83%E4%B9%A0%E9%A2%98/</id>
+    <published>2020-02-01T04:21:00.000Z</published>
+    <updated>2020-02-01T05:12:09.676Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;练习题&quot;&gt;&lt;a href=&quot;#练习题&quot; class=&quot;headerlink&quot; title=&quot;练习题&quot;&gt;&lt;/a&gt;练习题&lt;/h1&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+    
+    
+      <category term="Java练习题" scheme="http://yoursite.com/tags/Java%E7%BB%83%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-20.数组练习题</title>
+    <link href="http://yoursite.com/2020/02/01/2-20.%E6%95%B0%E7%BB%84%E7%BB%83%E4%B9%A0%E9%A2%98/"/>
+    <id>http://yoursite.com/2020/02/01/2-20.%E6%95%B0%E7%BB%84%E7%BB%83%E4%B9%A0%E9%A2%98/</id>
+    <published>2020-02-01T04:20:00.000Z</published>
+    <updated>2020-02-01T05:12:10.424Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;数组练习题&quot;&gt;&lt;a href=&quot;#数组练习题&quot; class=&quot;headerlink&quot; title=&quot;数组练习题&quot;&gt;&lt;/a&gt;数组练习题&lt;/h1&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+    
+    
+      <category term="Java练习题" scheme="http://yoursite.com/tags/Java%E7%BB%83%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-19.数组</title>
+    <link href="http://yoursite.com/2020/02/01/2-19.%E6%95%B0%E7%BB%84/"/>
+    <id>http://yoursite.com/2020/02/01/2-19.%E6%95%B0%E7%BB%84/</id>
+    <published>2020-02-01T04:19:00.000Z</published>
+    <updated>2020-02-01T05:12:11.865Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot; class=&quot;headerlink&quot; title=&quot;数组&quot;&gt;&lt;/a&gt;数组&lt;/h1&gt;&lt;p&gt;数组：具有相同数据类型的集合&lt;/p&gt;
+&lt;p&gt;java中的数组&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;if(条件){&lt;/p&gt;
-&lt;p&gt;​ 
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="if" scheme="http://yoursite.com/tags/if/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>13.用户输入</title>
-    <link href="http://yoursite.com/2020/01/31/13.%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5/"/>
-    <id>http://yoursite.com/2020/01/31/13.%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5/</id>
-    <published>2020-01-31T12:13:00.000Z</published>
-    <updated>2020-01-31T14:46:17.401Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;用户输入&quot;&gt;&lt;a href=&quot;#用户输入&quot; class=&quot;headerlink&quot; title=&quot;用户输入&quot;&gt;&lt;/a&gt;用户输入&lt;/h1&gt;&lt;p&gt;Scanner：扫描器&lt;/p&gt;
-&lt;p&gt;先创建扫描器&lt;/p&gt;
-&lt;figure class=&quot;highlight
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="Scanner扫描器" scheme="http://yoursite.com/tags/Scanner%E6%89%AB%E6%8F%8F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>12.String</title>
-    <link href="http://yoursite.com/2020/01/31/12.String/"/>
-    <id>http://yoursite.com/2020/01/31/12.String/</id>
-    <published>2020-01-31T12:12:00.000Z</published>
-    <updated>2020-01-31T14:45:23.148Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;String&quot;&gt;&lt;a href=&quot;#String&quot; class=&quot;headerlink&quot; title=&quot;String&quot;&gt;&lt;/a&gt;String&lt;/h1&gt;&lt;p&gt;字符串&lt;/p&gt;
-&lt;p&gt;在java中使用“”来描述字符串&lt;/p&gt;
-&lt;p&gt;字符串可以执行 +
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="String" scheme="http://yoursite.com/tags/String/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>11.boolean</title>
-    <link href="http://yoursite.com/2020/01/31/11.boolean/"/>
-    <id>http://yoursite.com/2020/01/31/11.boolean/</id>
-    <published>2020-01-31T12:11:00.000Z</published>
-    <updated>2020-01-31T14:44:43.527Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;boolean&quot;&gt;&lt;a href=&quot;#boolean&quot; class=&quot;headerlink&quot; title=&quot;boolean&quot;&gt;&lt;/a&gt;boolean&lt;/h1&gt;&lt;p&gt;int 整数&lt;/p&gt;
-&lt;p&gt;double 小数&lt;/p&gt;
-&lt;p&gt;boolean 布尔值   
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="boolean" scheme="http://yoursite.com/tags/boolean/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>10.double</title>
-    <link href="http://yoursite.com/2020/01/31/10.double/"/>
-    <id>http://yoursite.com/2020/01/31/10.double/</id>
-    <published>2020-01-31T12:10:00.000Z</published>
-    <updated>2020-01-31T14:44:13.553Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;double&quot;&gt;&lt;a href=&quot;#double&quot; class=&quot;headerlink&quot; title=&quot;double&quot;&gt;&lt;/a&gt;double&lt;/h1&gt;&lt;p&gt;int：整数&lt;/p&gt;
-&lt;p&gt;double：小数&lt;/p&gt;
-&lt;figure class=&quot;highlight
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="double" scheme="http://yoursite.com/tags/double/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>9.变量和int</title>
-    <link href="http://yoursite.com/2020/01/31/9.%E5%8F%98%E9%87%8F%E5%92%8Cint/"/>
-    <id>http://yoursite.com/2020/01/31/9.%E5%8F%98%E9%87%8F%E5%92%8Cint/</id>
-    <published>2020-01-31T12:09:00.000Z</published>
-    <updated>2020-01-31T14:44:12.668Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;变量和int&quot;&gt;&lt;a href=&quot;#变量和int&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="int" scheme="http://yoursite.com/tags/int/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>8.注释</title>
-    <link href="http://yoursite.com/2020/01/31/8.%E6%B3%A8%E9%87%8A/"/>
-    <id>http://yoursite.com/2020/01/31/8.%E6%B3%A8%E9%87%8A/</id>
-    <published>2020-01-31T12:08:00.000Z</published>
-    <updated>2020-01-31T14:44:11.708Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;注释&quot;&gt;&lt;a href=&quot;#注释&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="注释" scheme="http://yoursite.com/tags/%E6%B3%A8%E9%87%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>7.第一个java程序</title>
-    <link href="http://yoursite.com/2020/01/31/7.%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/"/>
-    <id>http://yoursite.com/2020/01/31/7.%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</id>
-    <published>2020-01-31T12:07:00.000Z</published>
-    <updated>2020-01-31T14:44:10.166Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;第一个java程序&quot;&gt;&lt;a href=&quot;#第一个java程序&quot; class=&quot;headerlink&quot; title=&quot;第一个java程序&quot;&gt;&lt;/a&gt;第一个java程序&lt;/h1&gt;&lt;figure class=&quot;highlight
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="第一个程序" scheme="http://yoursite.com/tags/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>6.java相关概念</title>
-    <link href="http://yoursite.com/2020/01/31/6.java%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/"/>
-    <id>http://yoursite.com/2020/01/31/6.java%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</id>
-    <published>2020-01-31T12:06:00.000Z</published>
-    <updated>2020-01-31T14:44:09.169Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;java相关概念&quot;&gt;&lt;a href=&quot;#java相关概念&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="Java导学" scheme="http://yoursite.com/tags/Java%E5%AF%BC%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>5.java简介</title>
-    <link href="http://yoursite.com/2020/01/31/5.Java%E7%AE%80%E4%BB%8B/"/>
-    <id>http://yoursite.com/2020/01/31/5.Java%E7%AE%80%E4%BB%8B/</id>
-    <published>2020-01-31T12:05:00.000Z</published>
-    <updated>2020-01-31T14:40:08.011Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;java简介&quot;&gt;&lt;a href=&quot;#java简介&quot; class=&quot;headerlink&quot; title=&quot;java简介&quot;&gt;&lt;/a&gt;java简介&lt;/h1&gt;&lt;p&gt;sun公司&lt;/p&gt;
-&lt;p&gt;James
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="Java导学" scheme="http://yoursite.com/tags/Java%E5%AF%BC%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4.编程语言的分类</title>
-    <link href="http://yoursite.com/2020/01/31/4.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E5%88%86%E7%B1%BB/"/>
-    <id>http://yoursite.com/2020/01/31/4.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E5%88%86%E7%B1%BB/</id>
-    <published>2020-01-31T12:04:00.000Z</published>
-    <updated>2020-01-31T14:38:55.114Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;编程语言的分类&quot;&gt;&lt;a href=&quot;#编程语言的分类&quot; class=&quot;headerlink&quot; title=&quot;编程语言的分类&quot;&gt;&lt;/a&gt;编程语言的分类&lt;/h1&gt;&lt;p&gt;地球文字 -&amp;gt; 翻译 -&amp;gt;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
-    
-    
-      <category term="Java导学" scheme="http://yoursite.com/tags/Java%E5%AF%BC%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3.常见的编程语言介绍</title>
-    <link href="http://yoursite.com/2020/01/31/3.%E5%B8%B8%E8%A7%81%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E4%BB%8B%E7%BB%8D/"/>
-    <id>http://yoursite.com/2020/01/31/3.%E5%B8%B8%E8%A7%81%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E4%BB%8B%E7%BB%8D/</id>
-    <published>2020-01-31T12:03:00.000Z</published>
-    <updated>2020-01-31T12:22:46.873Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;常见的编程语言介绍&quot;&gt;&lt;a href=&quot;#常见的编程语言介绍&quot; class=&quot;headerlink&quot; title=&quot;常见的编程语言介绍&quot;&gt;&lt;/a&gt;常见的编程语言介绍&lt;/h1&gt;&lt;p&gt;倚天屠龙记的门派来介绍！&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;少林派 -&amp;gt;
+&lt;li&gt;类型[]数组名 =
         
       
     
     </summary>
     
     
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
     
     
-      <category term="Java导学" scheme="http://yoursite.com/tags/Java%E5%AF%BC%E5%AD%A6/"/>
+      <category term="Java数组" scheme="http://yoursite.com/tags/Java%E6%95%B0%E7%BB%84/"/>
     
   </entry>
   
   <entry>
-    <title>2.编程语言的发展</title>
-    <link href="http://yoursite.com/2020/01/31/2.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E5%8F%91%E5%B1%95/"/>
-    <id>http://yoursite.com/2020/01/31/2.%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E5%8F%91%E5%B1%95/</id>
-    <published>2020-01-31T12:02:00.000Z</published>
-    <updated>2020-01-31T12:21:21.843Z</updated>
+    <title>2-18.break和continue</title>
+    <link href="http://yoursite.com/2020/02/01/2-18.break%E5%92%8Ccontinue/"/>
+    <id>http://yoursite.com/2020/02/01/2-18.break%E5%92%8Ccontinue/</id>
+    <published>2020-02-01T04:18:00.000Z</published>
+    <updated>2020-02-01T05:12:12.632Z</updated>
     
     <summary type="html">
     
@@ -395,26 +336,26 @@
       
         
         
-          &lt;h1 id=&quot;编程语言的发展&quot;&gt;&lt;a href=&quot;#编程语言的发展&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;break和continue&quot;&gt;&lt;a href=&quot;#break和continue&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
     
     
-      <category term="Java导学" scheme="http://yoursite.com/tags/Java%E5%AF%BC%E5%AD%A6/"/>
+      <category term="Java循环" scheme="http://yoursite.com/tags/Java%E5%BE%AA%E7%8E%AF/"/>
     
   </entry>
   
   <entry>
-    <title>1.导学</title>
-    <link href="http://yoursite.com/2020/01/31/1.%E5%AF%BC%E5%AD%A6/"/>
-    <id>http://yoursite.com/2020/01/31/1.%E5%AF%BC%E5%AD%A6/</id>
-    <published>2020-01-31T12:00:00.000Z</published>
-    <updated>2020-01-31T12:20:34.242Z</updated>
+    <title>2-17.do···while循环</title>
+    <link href="http://yoursite.com/2020/02/01/2-17.do%C2%B7%C2%B7%C2%B7while%E5%BE%AA%E7%8E%AF/"/>
+    <id>http://yoursite.com/2020/02/01/2-17.do%C2%B7%C2%B7%C2%B7while%E5%BE%AA%E7%8E%AF/</id>
+    <published>2020-02-01T04:17:00.000Z</published>
+    <updated>2020-02-01T05:12:13.313Z</updated>
     
     <summary type="html">
     
@@ -422,17 +363,209 @@
       
         
         
-          &lt;h1 id=&quot;编程语言的发展&quot;&gt;&lt;a href=&quot;#编程语言的发展&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;do···while循环&quot;&gt;&lt;a href=&quot;#do···while循环&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
-      <category term="Java-第一章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
     
     
-      <category term="Java导学" scheme="http://yoursite.com/tags/Java%E5%AF%BC%E5%AD%A6/"/>
+      <category term="Java循环" scheme="http://yoursite.com/tags/Java%E5%BE%AA%E7%8E%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-16.for循环</title>
+    <link href="http://yoursite.com/2020/02/01/2-16.for%E5%BE%AA%E7%8E%AF/"/>
+    <id>http://yoursite.com/2020/02/01/2-16.for%E5%BE%AA%E7%8E%AF/</id>
+    <published>2020-02-01T04:16:00.000Z</published>
+    <updated>2020-02-01T05:12:13.985Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;for循环&quot;&gt;&lt;a href=&quot;#for循环&quot; class=&quot;headerlink&quot; title=&quot;for循环&quot;&gt;&lt;/a&gt;for循环&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;for（语句1；语句2；语句3）{&lt;/p&gt;
+&lt;p&gt;​       
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+    
+    
+      <category term="Java循环" scheme="http://yoursite.com/tags/Java%E5%BE%AA%E7%8E%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-15.switch语句</title>
+    <link href="http://yoursite.com/2020/02/01/2-15.switch%E8%AF%AD%E5%8F%A5/"/>
+    <id>http://yoursite.com/2020/02/01/2-15.switch%E8%AF%AD%E5%8F%A5/</id>
+    <published>2020-02-01T04:15:00.000Z</published>
+    <updated>2020-02-01T05:12:54.537Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;switch语句&quot;&gt;&lt;a href=&quot;#switch语句&quot; class=&quot;headerlink&quot; title=&quot;switch语句&quot;&gt;&lt;/a&gt;switch语句&lt;/h1&gt;&lt;p&gt;switch
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+    
+    
+      <category term="Java判断" scheme="http://yoursite.com/tags/Java%E5%88%A4%E6%96%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-14.运算符-一元运算</title>
+    <link href="http://yoursite.com/2020/02/01/2-14.%E8%BF%90%E7%AE%97%E7%AC%A6-%E4%B8%80%E5%85%83%E8%BF%90%E7%AE%97/"/>
+    <id>http://yoursite.com/2020/02/01/2-14.%E8%BF%90%E7%AE%97%E7%AC%A6-%E4%B8%80%E5%85%83%E8%BF%90%E7%AE%97/</id>
+    <published>2020-02-01T04:14:00.000Z</published>
+    <updated>2020-02-01T05:12:17.673Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;运算符-一元运算&quot;&gt;&lt;a href=&quot;#运算符-一元运算&quot; class=&quot;headerlink&quot; title=&quot;运算符-一元运算&quot;&gt;&lt;/a&gt;运算符-一元运算&lt;/h1&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+    
+    
+      <category term="Java基础运算" scheme="http://yoursite.com/tags/Java%E5%9F%BA%E7%A1%80%E8%BF%90%E7%AE%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-13.运算符-逻辑运算</title>
+    <link href="http://yoursite.com/2020/02/01/2-13.%E8%BF%90%E7%AE%97%E7%AC%A6-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E8%BF%90%E7%AE%97/"/>
+    <id>http://yoursite.com/2020/02/01/2-13.%E8%BF%90%E7%AE%97%E7%AC%A6-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E8%BF%90%E7%AE%97/</id>
+    <published>2020-02-01T04:13:00.000Z</published>
+    <updated>2020-02-01T05:12:18.416Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;运算符-逻辑运算&quot;&gt;&lt;a href=&quot;#运算符-逻辑运算&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+    
+    
+      <category term="Java基础运算" scheme="http://yoursite.com/tags/Java%E5%9F%BA%E7%A1%80%E8%BF%90%E7%AE%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-12.运算符-比较运算</title>
+    <link href="http://yoursite.com/2020/02/01/2-12.%E8%BF%90%E7%AE%97%E7%AC%A6-%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97/"/>
+    <id>http://yoursite.com/2020/02/01/2-12.%E8%BF%90%E7%AE%97%E7%AC%A6-%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97/</id>
+    <published>2020-02-01T04:12:00.000Z</published>
+    <updated>2020-02-01T05:11:02.808Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;运算符-比较运算&quot;&gt;&lt;a href=&quot;#运算符-比较运算&quot; class=&quot;headerlink&quot; title=&quot;运算符-比较运算&quot;&gt;&lt;/a&gt;运算符-比较运算&lt;/h1&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+    
+    
+      <category term="Java基础运算" scheme="http://yoursite.com/tags/Java%E5%9F%BA%E7%A1%80%E8%BF%90%E7%AE%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-11.运算符-赋值扩展运算</title>
+    <link href="http://yoursite.com/2020/02/01/2-11.%E8%BF%90%E7%AE%97%E7%AC%A6-%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97/"/>
+    <id>http://yoursite.com/2020/02/01/2-11.%E8%BF%90%E7%AE%97%E7%AC%A6-%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97/</id>
+    <published>2020-02-01T04:11:00.000Z</published>
+    <updated>2020-02-01T05:11:02.125Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;运算符-赋值扩展运算&quot;&gt;&lt;a href=&quot;#运算符-赋值扩展运算&quot; class=&quot;headerlink&quot; title=&quot;运算符-赋值扩展运算&quot;&gt;&lt;/a&gt;运算符-赋值扩展运算&lt;/h1&gt;&lt;p&gt;= 把等号右边计算的结果赋值给等号左边的变量&lt;/p&gt;
+&lt;p&gt;累加
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+    
+    
+      <category term="Java基础运算" scheme="http://yoursite.com/tags/Java%E5%9F%BA%E7%A1%80%E8%BF%90%E7%AE%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2-10.运算符-算数运算</title>
+    <link href="http://yoursite.com/2020/02/01/2-10.%E8%BF%90%E7%AE%97%E7%AC%A6-%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97/"/>
+    <id>http://yoursite.com/2020/02/01/2-10.%E8%BF%90%E7%AE%97%E7%AC%A6-%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97/</id>
+    <published>2020-02-01T04:10:00.000Z</published>
+    <updated>2020-02-01T05:11:01.427Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;运算符-算数运算&quot;&gt;&lt;a href=&quot;#运算符-算数运算&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java-第二章" scheme="http://yoursite.com/categories/Java-%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+    
+    
+      <category term="Java基础运算" scheme="http://yoursite.com/tags/Java%E5%9F%BA%E7%A1%80%E8%BF%90%E7%AE%97/"/>
     
   </entry>
   
